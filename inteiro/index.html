@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/estilo.css">
+    <title>Inteiro</title>
+</head>
+<body> <!--aquilo que o usuario visualiza-->
+    <header>
+        <h1>Inteiro</h1>
+    </header>
+
+    <main>
+        <ul>
+            <li>
+                <label for="numero">Digite um numero:</label>
+                <input type="number" name="numero" id="numero" required autofocus placeholder="Digite o número:">
+            </li>
+            <li>
+                <button type="submit" onclick="calcular()">Resposta</button>
+            </li>
+            <li>
+                <p class="numeroTotal" id="resultado"></p>
+            </li>
+        </ul>
+    </main>
+
+    <footer>
+        <p>Desenvolvido por Esley Ranielly</p>
+    </footer>
+    <script src="js/numero.js"></script>
+</body>
+</html>
